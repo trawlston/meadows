@@ -224,6 +224,7 @@ hr {
 .container, .modal-ajax.container,
 .modal-iframe,
 .container-full {
+  max-height: 600px;
   margin: 0 auto; }
   .container.fixed,
   .fixed.modal-iframe, .fixed .container,
@@ -2411,11 +2412,11 @@ table {
               transition: .7s ease-in-out right; }
     .carousel > figure > img {
       display: block;
-      width: 100%; }
+      width: 50%; }
     .carousel > figure > figcaption {
       position: absolute;
       bottom: 0;
-      width: 100%;
+      width: 50%;
       max-height: 50%;
       overflow-y: auto;
       padding: 1px 3rem;
@@ -3514,6 +3515,9 @@ button.modal-direction {
     line-height: 0
 }
 
+.carouselImages {
+    max-width:400px;
+}
 
 
 
