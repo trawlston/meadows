@@ -13,7 +13,8 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+  margin: 0; 
+  background-color: #FFFAFA;}
 
 article,
 aside,
@@ -224,7 +225,6 @@ hr {
 .container, .modal-ajax.container,
 .modal-iframe,
 .container-full {
-  max-height: 600px;
   margin: 0 auto; }
   .container.fixed,
   .fixed.modal-iframe, .fixed .container,
@@ -2392,6 +2392,7 @@ table {
 
 .carousel {
   margin-bottom: 1rem;
+  width: 50%;
   overflow: hidden;
   position: relative;
   -webkit-backface-visibility: hidden;
@@ -2412,14 +2413,15 @@ table {
               transition: .7s ease-in-out right; }
     .carousel > figure > img {
       display: block;
-      width: 50%; }
+      width: 100%; 
+      height:100%;}
     .carousel > figure > figcaption {
       position: absolute;
       bottom: 0;
-      width: 50%;
-      max-height: 50%;
+      width: 100%;
+      max-height: 33%;
       overflow-y: auto;
-      padding: 1px 3rem;
+      padding: 0px 1rem;
       background-color: rgba(34, 34, 34, 0.4);
       color: white; }
   .carousel > ol {
@@ -3451,7 +3453,7 @@ button.modal-direction {
   .container, .modal-ajax.container,
   .modal-iframe {
     max-width: 100%;
-    width: 100%; }
+     }
     .container.fixed,
     .fixed.modal-iframe, .fixed .container,
     .fixed .modal-iframe {
@@ -3485,7 +3487,7 @@ button.modal-direction {
 }
 
 .imageRow{
-  height:100px;
+  height:200px;
   margin-top:10px;
   margin-bottom:50px;
 }
@@ -3497,13 +3499,13 @@ button.modal-direction {
 
 .distribute {
   width: 75%;
-  height: 100px;
+  height: 200px;
   margin-top:20px;
   margin-bottom:50px;
   margin-left: auto; 
   margin-right: auto;
 
-   text-align: justify;
+  text-align: justify;
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
 }
@@ -3515,9 +3517,9 @@ button.modal-direction {
     line-height: 0
 }
 
-.carouselImages {
+/*.carouselImages {
     max-width:400px;
-}
+}*/
 
 
 
