@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0; 
-  background-color: #FFFAFA;}
+  background-color: #EBE8E6;}
 
 article,
 aside,
@@ -2324,7 +2324,7 @@ table {
   bottom: 0;
   right: 0;
   visibility: hidden;
-  background-color: #000000;
+  background-color: #3F1F09;
   opacity: 0.75;
   color: white;
   -webkit-transition: .3s linear width;
@@ -2338,7 +2338,7 @@ table {
   [data-navigation] > button:first-child,
   .navigation > button:first-child {
     visibility: visible;
-    background-color: #999999;
+    background-color: #3F1F09;
     color: white;
     width: 55px;
     height: 35px;
@@ -3529,7 +3529,7 @@ button.modal-direction {
 .fancy{
   width:100%;
   height:120px;
-  background-color: gray;
+  background-color: #09293f;
 }
 
 /*.carouselImages {
